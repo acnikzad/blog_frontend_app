@@ -1,11 +1,6 @@
 <template>
   <div class="home">
     <h1>{{ message }}</h1>
-    <a href="/signup">Signup</a>
-    <br>
-    <a href="/login">Login</a>
-    <br>
-    <a href="/logout">Logout</a>
   </div>
 </template>
 
@@ -16,7 +11,7 @@
 export default {
   data: function() {
     return {
-      message: "Welcome to Vue.js!"
+      message: "Welcome to Second!"
     };
   },
   created: function() {},
